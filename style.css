@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0px !important;
+    padding: 0px !important;
+    font-family: 'Roboto', sans-serif;
+}
+.container-1 {
+    height: 100vh;
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3527ca;
+}
+.container {
+    height: 95%;
+    background-color: white;
+    padding: 0px !important;
+    background-color: #3527ca;
+}
+.container_inner {
+    height: 100%;
+}
+.contianer_inner_left, .container_inner_right {
+    height: 100%;
+}
+.container_inner_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.contianer_inner_left h1 {
+    font-size: 40px;
+    letter-spacing: -0.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}
+.form {
+    height: 45%;
+    margin-top: 30px;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.form_text {
+    height: 25%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 45px;
+}
+.form_text label {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.form_text input {
+    width: 90%;
+    height: 50%;
+}
+.chexbox_input_text label {
+    font-size: 20px;
+    margin-left: 45px;
+}
+.chexbox_input_text input {
+    width: 18px;
+    height: 18px;
+}
+.submit_btn {
+    width: 83%;
+    height: 15%;
+    margin-top: 20px;
+    border-radius: 0px !important;
+    font-size: 20px !important;
+    color: white !important;
+    background-color: #3527ca !important ;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif !important;
+    text-align: center;
+    margin-left: 45px;
+}
+.contianer_inner_left p {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    color: white;
+}
+.container_inner_right img {
+    width: 75%;
+    height: 60%;
+    object-fit: cover;
+    text-align: center;
+    display: inline;
+}
+.container_inner_right p {
+    color: white;
+    font-size: 18px;
+    opacity: .9;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', sans-serif !important;
+    line-height: 30px;
+}
+
+
+@media only screen and (max-width:600px) {
+    .container-1 {
+        height: auto;
+    }
+}
